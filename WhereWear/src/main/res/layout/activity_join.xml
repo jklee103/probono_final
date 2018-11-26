@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.example.ds.jointest.JoinActivity">
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="JOIN"
+    android:textSize="30dp"/>
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+
+
+
+    <EditText
+        android:hint="e_mail"
+        android:layout_height="50dp"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:id="@+id/etEmail"/>
+
+
+
+
+
+    <EditText
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:id="@+id/etPW"/>
+
+
+
+
+
+
+
+    <EditText
+        android:hint="password check"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:id="@+id/etPWcheck"/>
+
+    <EditText
+        android:hint="address"
+        android:layout_height="50dp"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:id="@+id/etAddress"/>
+
+    <EditText
+        android:hint="phone"
+        android:layout_height="50dp"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:id="@+id/etPhone"/>
+
+    <TextView
+        android:layout_height="25dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="Join"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
+
+</LinearLayout>

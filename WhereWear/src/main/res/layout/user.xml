@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f4eb">
+
+
+
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="LOG IN"
+        android:textColor="#BDBDBD"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="88dp"
+        android:textColor="#BDBDBD"
+        android:text="e-mail"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_height="match_parent"
+        android:layout_width="220dp"
+        android:textColor="#BDBDBD"
+        android:id="@+id/etEmail2"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="88dp"
+        android:text="PW"
+        android:textColor="#BDBDBD"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_height="match_parent"
+        android:layout_width="220dp"
+        android:id="@+id/etPW2"
+        android:textColor="#BDBDBD"
+        android:inputType="textPassword"/>
+
+</LinearLayout>
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:onClick="btnLoginclicked"
+        android:text="Log In"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"/>
+    <Button
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:id="@+id/btnJoin"
+        android:text="Join"
+        android:textSize="35dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_height="450dp"
+        android:layout_width="match_parent"
+        android:background="#f6f4eb"/>
+</LinearLayout>

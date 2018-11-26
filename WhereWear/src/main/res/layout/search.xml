@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f6f4eb"
+    android:layout_height="match_parent">
+
+
+
+    <ImageButton
+        android:background="#f6f4eb"
+        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/mic"
+        android:id="@+id/btnVoice"/>
+
+    <ImageButton
+        android:id="@+id/btnText"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="#f6f4eb"
+        android:scaleType="centerInside"
+        android:src="@drawable/search" />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="15dp" />
+    <EditText
+        android:id="@+id/etResult"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:textSize="35dp"
+        android:textColor="#BDBDBD" />
+</LinearLayout>
